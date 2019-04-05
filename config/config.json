@@ -1,0 +1,10 @@
+{
+    "images_info": [],
+    "compliantImages": [],
+    "bucket_name": "djif-infprod-policyengine",
+    "dynamodb_instances_table": "djif-ec2instances-test1",
+    "dynamodb_images_table": "djif-compliantImages-test1",
+    "trusted_accounts": ["067463091988", "528339170479"],
+    "trusted_ami_prefix": "djif-base-image",
+    "deprecated_threshold": 90
+}
