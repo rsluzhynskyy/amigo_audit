@@ -319,7 +319,7 @@ def get_image_info(image_id, region, session):
             )
         ImageName = "None"
         ImageCreationDate = "Unavailable"
-        platform = "None"
+        platform = "unknown"
         for info in image_info['Images']:
             if info['CreationDate']:
                 ImageName = info['Name']
