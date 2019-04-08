@@ -370,3 +370,5 @@ def instances_main(client, config):
     aws_accounts = get_account_id_name(client.result, client.paginator, config.bucket_name)
     for o in aws_accounts:
         get_latest_ConfigSnapshot(o["account_id"], o['account_name'], client, config)
+
+# TODO
