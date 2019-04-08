@@ -95,4 +95,4 @@ def images_main(client, config):
     delete_dynamodb(client.session, config.dynamodb_images_table)
     update_compliant_images_db(client, config)
 
-# TODO
+# TODO:
